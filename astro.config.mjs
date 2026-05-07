@@ -8,7 +8,8 @@ import tailwindcss from '@tailwindcss/vite';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://ashikelahi.com',
+  site: 'https://ashikelahi171810-jpg.github.io',
+  base: '/ashikelahi.com',
   integrations: [mdx(), sitemap()],
 
   fonts: [
